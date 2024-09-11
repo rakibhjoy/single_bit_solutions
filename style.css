@@ -1,0 +1,170 @@
+
+.sticky-top{
+    background-color: white;
+    padding-left: 19rem;
+    padding-right: 19rem;
+}
+
+.bt{
+    padding-top: 40px;
+}
+.hero2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.ab{
+    background-color: aliceblue;
+}
+.ab-1{
+    height: 150px;
+    text-align: center;
+    background-color: orange;
+    padding-top: 25px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+.about-col img{
+    width: 100%;
+    padding-left:20%;
+}
+.about-col h1{
+    padding-top: 0;
+
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.hero5{
+    background-color: #143044;
+}
+
+
+.hero5 p{
+    width:300px;
+    border: 1px solid none;
+    word-wrap: break-word;
+    padding-top: 30px;
+}
+
+.box{
+   border-color: red;
+}
+.hero6{
+    padding-top: 20px;
+}
+
+
+
+.hero3 {
+    background-image: url('img/h7.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.alert3 {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text readability */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .hero3 {
+        height: auto;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+.hero1 {
+    background-image: url('img/hero5.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.alert1 {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text readability */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .hero1 {
+        height: auto;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+

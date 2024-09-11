@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <style>
+      .card-img-top {
+          height: 200px; /* Set a fixed height */
+          object-fit: cover; /* Ensures the image covers the area without distortion */
+      }
+  </style>
+  
+</head>
+<body>
+  
+ <!-- nav1 -->
+ <div class="container mt-2">
+  <!-- Mobile Menu Button -->
+  <div class="d-xl-none d-flex justify-content-end mt-5">
+      <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasSidebar"
+          aria-controls="offcanvasSidebar"
+      >
+          <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+          >
+              <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              />
+          </svg>
+      </button>
+  </div>
+
+  <!-- Navigation Bar -->
+   
+  <nav class="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-lg-between p-0 m-0">
+    <button class="btn btn-warning btn-lg" style="width: 200px">
+        JOIN NEWSLETTER
+    </button>
+
+    <div class="logo text-center">
+      <a href="index.html">
+          <img src="img/Capture1.PNG" alt="Logo" style="max-width: 150px; height: auto" />
+      </a>
+    </div>
+
+    <div class="ms-lg-4 text-center text-lg-end">
+        <a href="tel:+8801872222310" class="btn btn-outline-secondary btn-lg">
+          +8801872222310
+        </a>
+    </div>
+</nav>
+
+
+
+    <!-- Sidebar Trigger Button -->
+  </nav>
+</div>
+<hr />
+
+<!-- nav2 -->
+<div class="sticky-top d-none d-xl-block">
+  <nav class="navbar navbar-expand-lg mx-2 mx-sm-10">
+    <div class="collapse navbar-collapse">
+      <ul
+        class="navbar-nav w-100 d-flex justify-content-between"
+      >
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><b>HOME</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html"><b>ABOUT</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html"><b>OUR SERVICES</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Blog.html"><b>BLOG</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html"><b>CONTACT US</b></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- Sidebar -->
+<div
+  class="offcanvas offcanvas-start bg-dark text-white"
+  tabindex="-1"
+  id="offcanvasSidebar"
+  aria-labelledby="offcanvasSidebarLabel"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasSidebarLabel">Navigation Bar</h5>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="About.html">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="services.html">OUR SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="Blog.html">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="Contact.html">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+    <!-- hero1 -->
+     
+    <div>
+      <div class="container-fluid hero d-flex flex-column justify-content-center align-items-center text-center" style="background-color: #143044; height: 100vh;">
+        <h1 class="display-4 text-white">Welcome to SingleBit Solutions</h1>
+        <h3 class="text-white mt-3">We deliver cutting-edge software that transforms businesses</h3>
+        <h5 class="text-white mt-2">Our expert team crafts tailored solutions designed to meet your unique needs,</h5>
+        <h5 class="text-white">ensuring seamless integration and exceptional performance.</h5>
+        <h5 class="text-white">Partner with us to unlock your business's full potential through innovative technology.</h5>
+        <div class="mt-4">
+          <button type="button" class="btn btn-light btn-lg">Let us help your business</button>
+        </div>
+      </div>
+      
+    </div>
+    
+  
+
+    <!-- hero2 -->
+    <div class="hero2">
+      <p><i class="fas fa-building"></i> All work produced in-house in the BD</p>
+      <p><i class="fas fa-briefcase"></i> Over 10 years in business</p>
+      <p><i class="fas fa-headset"></i> BD Based 24/7 Support</p>
+    </div>
+    
+     <hr>
+     <!-- hero3 -->
+     <div class="container mt-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 pb-4 order-md-1 order-2">
+          <h1>Software and Website Development: Building Digital Solutions</h1>
+          <p>Software and website development are the processes of creating digital tools and platforms that serve specific purposes. Developers use programming languages, frameworks, and design principles to construct functional, user-friendly, and efficient applications. These solutions can range from simple websites to complex enterprise systems, and they play a crucial role in driving innovation and transforming industries.</p>
+          <button type="button" class="btn btn-secondary btn-lg">Send us an email</button>
+        </div>
+        <div class="col-md-6 order-md-2 order-1 text-center">
+          <img src="img/h3.jpeg" class="img-fluid" alt="Your Image Description" style="max-width: 75%; height: auto;">
+        </div>
+      </div>
+    </div>
+  <br>
+
+
+     <!-- hero5 -->
+      <div class="container py-5">
+
+        <div class="hero5 text-white row p-5 align-items-center">
+          <!-- Left Side Content -->
+          <div class="col-12 col-xxl-4">
+            <h2>Ready to improve your online marketing?</h2>
+            <p>With expert design, engaging content, and proven strategies, we’ll help you attract more customers and boost your bottom line using a combination of digital marketing tools and techniques.</p>
+            <button class="px-4 py-2 border border-light mt-4">Send us an email</button>
+          </div>
+        
+          <!-- Right Side Content (Four Boxes) -->
+          <div class="col-12 col-xxl-8 mt-5 mt-xxl-0">
+            <div class="row row-cols-1 row-cols-lg-2 g-4">
+              <div class="col d-flex">
+                <div class="border border-light p-4 flex-fill d-flex flex-column">
+                  <h2>Dynamic Website</h2>
+                  <p>At Single Bit Solutions, we specialize in innovative software solutions that drive business success. Our team is dedicated to delivering cutting-edge technology tailored to meet your unique needs.</p>
+                </div>
+              </div>
+              <div class="col d-flex">
+                <div class="border border-light p-4 flex-fill d-flex flex-column">
+                  <h2>Static Website</h2>
+                  <p>Experience simplicity and speed with our streamlined, static web design. Your content delivered with elegance and efficiency, every time.. At Single Bit Solutions.</p>
+                </div>
+              </div>
+              <div class="col d-flex">
+                <div class="border border-light p-4 flex-fill d-flex flex-column">
+                  <h2>Social Media</h2>
+                  <p>Connect, share, and stay informed with a platform designed for meaningful interactions. Empower your voice and engage with a global community in real time.</p>
+                </div>
+              </div>
+              <div class="col d-flex">
+                <div class="border border-light p-4 flex-fill d-flex flex-column">
+                  <h2>E-Commerce</h2>
+                  <p>We build e-commerce platforms that are secure, scalable, and easy to manage. With our solutions, you can provide your customers with a smooth online shopping experience and grow your business.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     
+    
+    
+<!-- hero6 -->
+
+<div class="hero6 container py-5">
+  <div class="card-group">
+    <div class="card">
+      <img src="img/img5.jpg" class="card-img-top" alt="Support">
+      <div class="card-body">
+        <h5 class="card-title">SUPPORT</h5>
+        <p class="card-text">At Single Bit Solutions, we innovate with cutting-edge technology to deliver tailored IT services that drive business success. Our commitment to excellence ensures that your digital transformation journey is seamless and effective.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/img1.webp" class="card-img-top" alt="Development">
+      <div class="card-body">
+        <h5 class="card-title">DEVELOPMENT</h5>
+        <p class="card-text">At Single Bit Solutions, we specialize in innovative software development that drives businesses forward. Our expert team is committed to delivering customized solutions tailored to meet your unique needs.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/img7.png" class="card-img-top" alt="Resources">
+      <div class="card-body">
+        <h5 class="card-title">RESOURCES</h5>
+        <p class="card-text">Discover innovative IT solutions tailored to elevate your business. At Single Bit Solutions, we combine cutting-edge technology with expert insights to drive your success.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- hero7 -->
+
+ <div class="container mt-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">
+                    We have been delighted with the work Mark and the team at SBITS have done for us.
+                  </h5>
+                  <p class="card-text">
+                    The initial enhancements he made to the website really stood out and were implemented really quickly, both elements far exceeded our expectations, and the improvement was instantaneous.
+                    Mark really has an eye for good visuals and a real skill with the wording he uses.
+                  </p>
+                  <P><b>Keith Taylor, KDT Pools </b></P>
+                  <div>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">
+                    SBITS exceeded our expectations!
+                  </h5>
+                  <p class="card-text">
+                    They transformed our website into a stunning showcase for our work.
+                    Their quick turnaround and eye for design delivered instant results, boosting our online presence and driving inquiries.
+                    We’re thrilled with the partnership we’ve built with SBITS, and we highly recommend their services to anyone looking to take their business to the next level.
+                  </p>
+                  <P><b>Scott Chapman, Scope Fire & Security</b></P>
+                  <div>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">
+                    SBITS has been our trusted digital partner since day one.
+                  </h5>
+                  <p class="card-text">
+                    They completely designed our online presence at the start of our business journey and have kept us at the top of Google ever since.Their ongoing support, stunning website redesigns and upgrades, and dedication to results have been instrumental in our success. We’re delighted with their partnership and highly recommend!
+                  </p>
+                  <P><b>Kevin, Affordable Skips  </b></P>
+
+                  <div>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="container text-center my-5">
+  <!-- Our Clients Section -->
+  <h1>Our Clients</h1>
+  <div class="row justify-content-center mt-4">
+      <!-- Client 1 -->
+      <div class="col-2">
+          <a href="https://www.client1.com" target="_blank">
+              <img src="img/Microsoft.png" alt="Client 1" class="img-fluid">
+          </a>
+      </div>
+      <!-- Client 2 -->
+      <div class="col-2">
+          <a href="https://www.client2.com" target="_blank">
+              <img src="client2-logo.png" alt="Client 2" class="img-fluid">
+          </a>
+      </div>
+      <!-- Client 3 -->
+      <div class="col-2">
+          <a href="https://www.client3.com" target="_blank">
+              <img src="client3-logo.png" alt="Client 3" class="img-fluid">
+          </a>
+      </div>
+      <!-- Client 4 -->
+      <div class="col-2">
+          <a href="https://www.client4.com" target="_blank">
+              <img src="client4-logo.png" alt="Client 4" class="img-fluid">
+          </a>
+      </div>
+      <!-- Client 5 -->
+      <div class="col-2">
+          <a href="https://www.client5.com" target="_blank">
+              <img src="client5-logo.png" alt="Client 5" class="img-fluid">
+          </a>
+      </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<div class="">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              SBITS
+            </h6>
+            <p>
+              SBITS is a cutting-edge software company specializing in custom software solutions and IT services to drive business innovation.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a class="text-white">ASP.NET</a>
+            </p>
+            <p>
+              <a class="text-white">NODE JS</a>
+            </p>
+            <p>
+              <a class="text-white">WEB DEVELOPMENT</a>
+            </p>
+            <p>
+              <a class="text-white">Software Management</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a class="text-white">Help</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> Shanti Nagor,Dhaka, BD</p>
+            <p><i class="fas fa-envelope mr-3"></i> singlebititsolutions@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +88 01872222310</p>
+            <!-- <p><i class="fas fa-print mr-3"></i> +88 01700-0000000</p> -->
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/"
+                 >SBITS</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               href="https://www.facebook.com/singlebits"
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f" ></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>
